@@ -9,19 +9,19 @@ import { TransparencySection } from "@/components/transparency-section"
 import { AboutSection } from "@/components/about-section"
 
 export default function HomePage() {
-  return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <HeroSection />
-        <StatsSection />
-        <FeaturesSection />
-        <HowItWorksSection />
-        <TransparencySection />
-        <AboutSection />
-        <CTASection />
-      </main>
-      <Footer />
-    </div>
-  )
+    return (
+        <div className="min-h-screen">
+            <Header />
+            <main>
+                <HeroSection />
+                <StatsSection />
+                <FeaturesSection />
+                <HowItWorksSection />
+                <TransparencySection />
+                <AboutSection />
+                <CTASection />
+            </main>
+            <Footer />
+        </div>
+    )
 }
